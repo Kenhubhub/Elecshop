@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers"
   ],
-  "SelectedNode": "\\ElecShopApi.csproj",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -7,16 +7,10 @@ namespace ElecShopApi.Controllers;
 
 public class ElectricalItemsController : ControllerBase
 {
-    List<ElectricalItem> elecItems = new List<ElectricalItem>(){
-        new ElectricalItem( 1,  "Beko Fridge Freezer", "Fridge Freezer", "A free standing fridge freezer", 300.00),
-        new ElectricalItem( 2,  "LG Smart TV", "TV", "65 inch LG TV with stunning realism and sharp images", 1600.00),
-        new ElectricalItem( 3,  "Sharp Standard Dishwasher", "Dishwasher", "A Dishwasher with height adjustable top basket.", 299.00),
-        new ElectricalItem( 4,  "Bosch Standard Wifi Connected Dishwasher", "Dishwasher", " A wifi connected Dishwasher that connects to your smartphone.", 429.00)
-    };
-
+    ElectricalItemStorage elecItems = new ElectricalItemStorage();
     [HttpGet("GetAllElectricalItems")]
     public List<ElectricalItem> Get()
     {
-        return elecItems;
+        return elecItems.items;
     }
 }

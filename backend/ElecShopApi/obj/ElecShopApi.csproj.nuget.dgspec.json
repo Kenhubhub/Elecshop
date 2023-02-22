@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LUOK\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj": {}
+    "C:\\Users\\luo_k\\workbench\\projects\\ElecShop\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LUOK\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj": {
+    "C:\\Users\\luo_k\\workbench\\projects\\ElecShop\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LUOK\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\projects\\ElecShop\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj",
         "projectName": "ElecShopApi",
-        "projectPath": "C:\\Users\\LUOK\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj",
-        "packagesPath": "C:\\Users\\LUOK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LUOK\\Elecshop\\backend\\ElecShopApi\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\ElecShop\\Elecshop\\backend\\ElecShopApi\\ElecShopApi.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\projects\\ElecShop\\Elecshop\\backend\\ElecShopApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LUOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +44,29 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
