@@ -7,11 +7,10 @@ namespace ElecShopApi.Controllers;
 
 public class ElectricalItemTypeController : ControllerBase
 {
-  ElectricalItemStorage elecItems = new ElectricalItemStorage();
     [HttpGet("GetAllElectricalItems/{type}")]
     public List<ElectricalItem> Get(string type)
     {
-        return elecItems.items.Where(item => item.Type.ToLower() == type.ToLower()).ToList();
+        return ElectricalItemStorage.items.Where(item => item.Type.ToLower() == type.ToLower()).ToList();
     }
 }
 
